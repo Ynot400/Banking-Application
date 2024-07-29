@@ -1,22 +1,36 @@
 This repository contains the code for a Banking Application Project that I worked on daily throughout Summer 2024. 
+
 The Tech Stack Required for project installation is **React -> Java Spring Boot -> MongoDB**
+
 **banking-java** contains my backend code, while **banking-react** contains my frontend code!
 
 Using Spring Boot Security, the banking dashboard simulates a real banking experience once a user creates an account and completes email verification. Users can create various types of accounts, such as checking, savings, or business, and select their preferred currency type. Additionally, users can create credit cards linked to their accounts and simulate card purchases or payments based on their balance and credit limit. The dashboard visualizes transactions through a line graph, and users can convert their currency to other currencies using a currency exchange rate API. MongoDB stores the transactions, account data, and credit card information, while the Java backend manages the creation and retrieval of the appropriate documents based on database references.
 
 Below are some images of the application.
+
+Sign Up Page
+<img width="1470" alt="Screenshot 2024-07-29 at 5 11 29 PM" src="https://github.com/user-attachments/assets/2839ffc3-1e6c-43a8-95e6-6eafdafe08e2">
+
+Sign In Page
+<img width="1468" alt="Screenshot 2024-07-29 at 5 11 48 PM" src="https://github.com/user-attachments/assets/c549be59-5b7b-473c-8e10-bf7822f78874">
+
+Main Dashboard
 <img width="1470" alt="Screenshot 2024-07-28 at 8 25 14 PM" src="https://github.com/user-attachments/assets/ddc5a6c6-f645-418c-8493-03bf49e49950">
 
+Transaction Page
 <img width="1470" alt="Screenshot 2024-07-29 at 2 59 50 PM" src="https://github.com/user-attachments/assets/4c085f12-336a-4e9e-8e9c-4ba646f920a6">
 
+Credit Card Hub
 <img width="1469" alt="Screenshot 2024-07-29 at 2 59 11 PM" src="https://github.com/user-attachments/assets/3272cd23-ed8a-46e7-a59d-aad856979fea">
 
+Account Form
+<img width="1470" alt="Screenshot 2024-07-29 at 5 12 16 PM" src="https://github.com/user-attachments/assets/cfe86fc9-df97-416d-9d8d-b4591926797d">
 
 # Project Setup Instructions
 
 ## Prerequisites
--It is reccomended to use Intellij IDEA as the IDE used to run the Java backend
--It is reccomended to use VSCode as the IDE used to run the React frontend
+- It is reccomended to use Intellij IDEA as the IDE used to run the Java backend
+- It is reccomended to use VSCode as the IDE used to run the React frontend
 - Ensure you have [MongoDB](https://www.mongodb.com/try/download/community) installed locally or have access to a MongoDB instance. (I used the MongoDB Compass Application to observe my documents)
 - Ensure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed for the React front end.
 - Ensure you have [Maven](https://maven.apache.org/) installed for the Spring Boot backend.
